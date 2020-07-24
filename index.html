@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">  
     <title>Login</title>
     <link href="styles.css" rel="stylesheet">
 </head>
@@ -10,32 +12,37 @@
 <body>
 
     <div class="title">
-        <strong> Login </strong>
+        <strong>Start</strong>
     </div>
 
-    <div class="Login">
-
-        <form action="#" method="GET">
-
-            <p>Email</p>
-
-            <input type="email" name="user" placeholder="Digite seu e-mail"> 
-
-            <p>Senha</p>
-            <input type="password" name="senha" placeholder="Digite sua senha">
-
-            <div class="check">
-                <label class="check">
-                    lembrar de min  <input id ="check" type="checkbox" name="lambre" value="sim"> 
-                </label>
-            </div>
-
-            <button>Login</button>
-
-        </form>
+    <div class="homePage">
+        <div class="imageLogin">
+            <img src="./img/LoginImage.svg">
         
-    </div>
+            <div class="Login">
 
+                <form action="#" method="GET">
+
+                    <p>E-mail</p>
+
+                    <input type="email" name="user" placeholder="Digite seu e-mail"> 
+
+                    <p>Senha</p>
+                    <input type="password" name="senha" placeholder="Digite sua senha">
+
+                    <div class="check">
+                        <label class="check">
+                            <p>Lembrar de min</p><input id ="check" type="checkbox" name="lambre" value="sim"> 
+                        </label>
+                    </div>
+
+                    <button>Login</button>
+
+                </form>
+                
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

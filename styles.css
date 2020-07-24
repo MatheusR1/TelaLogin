@@ -6,16 +6,23 @@
 }
 
 body{
-    background-color: blueviolet;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #5c1677;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.homePage{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .title {
-    color: white;
+    color: #0a0a0a;
     font-style: italic;
-    height: 50px;
+    text-transform: uppercase;
     width: 500px;
-    margin: 50px auto 0px;
+    margin: 50px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,20 +33,26 @@ body{
     border: none;
     background-color: white;
     color:black;
-    border-radius: 10px;
+    border-radius: 15px;
     height: 340px;
     width: 500px;
-    margin: 50px auto 0px;
+    margin-right: 250px;
+    margin-left: 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.imageLogin{
+    display: flex;
+    flex-direction: row;
 }
 
 .Login form input{
     width: 100%;
     border-radius: 5px;
-    border-color:mediumorchid;
+    border-color:#811481;
     margin: 10px 10px ;
     display: flex;
     flex-direction: column;
@@ -48,20 +61,33 @@ body{
 }
 
 .check{
+    color:black;
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+    width: 110px;
     font-size: 12px;
     display: flex;
     flex-direction: row-reverse;
-    margin-right: auto ;
-    align-content: space-around;
 }
 
 
-.check input{
-    height: 15px;
-    margin-left: 10px;
+.check input{  
+    margin-right:-20px !important;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.check p{
+    display: flex;
+    flex-direction: row-reverse;
+    margin:auto ;
+    flex-basis: 1000px;
+   
 }
 
 .Login form button {
+    font-family: 'Permanent Marker', cursive;
     margin-top: 10px;
     margin-left: 300px ;
     display: flex;
